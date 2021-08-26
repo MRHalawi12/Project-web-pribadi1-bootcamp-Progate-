@@ -1,0 +1,219 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: "Sans Sherrif";
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .clear {
+    clear: left;
+  }
+  
+  .container {
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+  
+  .top-wrapper {
+    padding: 180px 0 100px 0;
+    background-image: url(https://media-cdn.tripadvisor.com/media/photo-s/15/54/bc/40/caption.jpg);
+    background-size: cover;
+    color: white;
+    font-family:sans-serif;
+    text-align: center;
+  }
+  
+  .top-wrapper h1 {
+    font-size: 45px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .top-wrapper p {font-size:25px;
+    margin-bottom: 3px;
+  }
+  
+  .btn {
+    padding: 12px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+    text-align: center;
+  }
+  
+  .btn:hover {
+    opacity: 1;
+  }
+  
+  .fa {
+    margin-right: 5px;
+  }
+  
+  header {
+    height: 65px;
+    width: 100%;
+    font-family:sans-serif;
+    background-color: rgba(34, 49, 52, 0.9);
+    position :fixed;
+    top: 0;
+    z-index: 10;
+  }
+  
+  .logo {
+    width: 45px;
+    margin-top: 5px;
+  }
+  
+  .header-left {
+    float: left;
+  }
+  
+  .header-right {
+    float: right;
+    margin-right: -25px;
+  }
+  
+  .header-right a {
+    line-height: 65px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+  }
+  
+  .header-right a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+  
+  /* Tambahkan CSS untuk menu-icon */
+  .menu-icon {color:white;
+             float:right;
+             display:none;
+  }
+  .profile{background-color:grey;padding:20;margin:10;font-family:sans-serif;color:white}
+  .container p{text-align:center;
+              font-size:25px;
+  }
+  .container h1{padding:10px 20px;text-align:center}
+  .container h2{padding:5px 20px;text-align:center}
+  .container h3{padding:5px 20px;text-align:center}
+  }
+  .lesson-wrapper {
+    padding-bottom: 80px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #f7f7f7;
+    text-align: center;
+  }
+  
+  .heading {
+    padding-top: 80px;
+    padding-bottom: 50px;
+    color: #5f5d60;
+  }
+  
+  .heading h2 {
+    font-weight: normal;
+  }
+  
+  .lesson {
+    float: left;
+    width: 25%;
+  }
+  
+  .lesson-icon {
+    position: relative;
+    font-size:25px;
+    font-family:sans-serif;
+  }
+  
+  .lesson-icon p {
+    position: absolute;
+    top: 44%;
+    width: 100%;
+    color: white;
+  }
+  
+  .text-contents {
+    width: 80%;
+    display: inline-block;
+    margin-top: 15px;
+    font-family:sans-serif;
+    font-size: 15px;
+    color: #b3aeb5;
+  }
+  
+  .heading h3 {
+    font-weight: normal;
+  }
+  
+  .message-wrapper {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 80px;
+    text-align: center;
+  }
+  
+  .instagram {
+    padding: 15px 40px;
+    background-color: purple;
+    cursor: pointer;
+    box-shadow: 0 7px #1a7940;
+  }
+  .Linkedin {
+    padding: 15px 40px;
+    background-color: blue;
+    cursor: pointer;
+    box-shadow: 0 7px #1a7940;
+  }
+  .github {
+    padding: 15px 40px;
+    background-color: grey;
+    cursor: pointer;
+    box-shadow: 0 7px #1a7940;
+  }
+  .twitter {
+    padding: 15px 40px;
+    background-color: cyan;
+    cursor: pointer;
+    box-shadow: 0 7px #1a7940;
+  }
+  
+  .instagram:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+  }
+  .Linkedin:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+  }
+  .github:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+  }
+  .twitter:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+  }
+  
+  footer img {
+    width: 125px;
+  }
+ 
+  footer {
+    padding-top: 30px;
+    padding-bottom: 20px;
+  }
